@@ -15,7 +15,7 @@ path = "lib.rs"
 
 [dependencies]
 slog = "2.5"
-arc-swap = "0.4"
+arc-swap = "1.1.0"
 lazy_static = "1.4"
 log = { version = "0.4", optional = true }
 

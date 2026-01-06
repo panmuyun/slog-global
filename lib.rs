@@ -45,7 +45,7 @@ pub fn get_global() -> Arc<Logger> {
 }
 
 /// Temporary borrows the global `Logger`.
-pub fn borrow_global<'a>() -> Guard<'a, Arc<Logger>> {
+pub fn borrow_global<'a>() -> Guard<Arc<Logger>> {
     GLOBAL_LOGGER.load()
 }
 
